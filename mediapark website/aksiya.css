@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+ 
+  body{
+    background-color: aliceblue;
+  }
+  
+  nav {
+   justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgb(186, 9, 9);
+  }
+  .logo img{
+border-radius: 10px;
+  }
+  .yt {
+    display: flex;
+  }
+  .nav {
+    height: 60px;
+    width: 100%;
+  }
+  .button button{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0px solid white;
+  }
+  .button p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .button button i{
+    margin-right: 20px;
+  }
+  .buttonh button{
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0px solid white;
+  }
+  .buttonh p{
+    font-size: 20px;
+  }
+  .buttonh i{
+   
+    margin-left: 45px;
+
+  }
+  .button2 button{
+    font-size: 17px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+  }
+  .button3 button{
+    font-size: 17px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+  }
+
+  
+  .button4 button{
+    font-size: 24px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+    margin-right: 60px;
+  }
+ .select1 button{
+    width: 200px;
+ }
+.nav2 ul {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    margin-top: 32px;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.rasmla1 img{
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 15px;
+}
+.rasmla2 img{
+    width: 350px;
+    margin-left: 15px;  
+}

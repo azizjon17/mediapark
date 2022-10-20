@@ -1,0 +1,314 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+ 
+  
+  nav {
+   justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgb(186, 9, 9);
+  }
+  .logo img{
+border-radius: 10px;
+  }
+  .yt {
+    display: flex;
+  }
+  .nav {
+    height: 50px;
+    width: 100%;
+  }
+  .button button{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0px solid white;
+  }
+  .button p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .button button i{
+    margin-right: 20px;
+  }
+  .buttonh button{
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0px solid white;
+  }
+  .buttonh p{
+    font-size: 20px;
+  }
+  .buttonh i{
+   
+    margin-left: 45px;
+
+  }
+  .button2 button{
+    font-size: 17px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+  }
+  .button3 button{
+    font-size: 17px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+  }
+
+  
+  .button4 button{
+    font-size: 24px;
+    width: 80px;
+    background-color:rgb(186, 9, 9) ;
+    border: 0px;
+    color: white;
+    margin-right: 60px;
+  }
+ .select1 button{
+    width: 200px;
+ }
+.nav2 ul {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    margin-top: 32px;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rasmal{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.rasm1 img{
+    border-radius: 10px;
+}
+.rasm2 img{
+    border-radius: 10px;
+}
+.button5 button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.button5 p{
+    font-size: 25px;
+}
+.blok1{
+    background:  linear-gradient(90deg, rgb(95, 195, 211) 0%, rgb(248, 220, 136) 100%);
+}
+.maydarasm{
+    display: flex;
+  width: 900px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.maydarasm img{
+    border-radius: 10px;
+}
+.blok2{
+    margin-left: 20px;
+    width: 280px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.icon p{
+    margin-top: 10px;
+    display: flex;
+    color: red;
+  font-size: 25px;
+   justify-content: center;
+}
+
+.blok2 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    background-color:grey;
+    color: black;
+}
+.blok2 button:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+.icon2{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.icon2 p{
+    font-size: 25px;
+}
+ .iconcha p{
+display: flex;
+justify-content: space-around;
+    font-size : 25px; ;
+    color: yellow;
+}
+.blokcha {
+    display: flex;
+    justify-content: space-around;
+        font-size : 25px; ;
+    }
+   .pp p{
+        text-align: center;
+        margin-top: 15px;
+        color: blue;
+    }
+    .katta {
+        margin-top: 50px;
+        display: flex;
+        width: 100%;
+    }
+    .kattarasm p{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 45px;
+    }
+    .kattarasm img{
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+    .brend p{
+        text-align: center;
+        font-size: 45px;
+        margin-top: 150px;
+    }
+    .brend img{
+        width: 100%;
+    }
+    .sar{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .aksiya p{
+        text-align: center;
+        font-size: 45px;
+        margin-top: 150px;
+    }
+    .aksiya a{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 150px;
+    }
+    .aksiya img{
+        border-radius: 15px;
+        width: 500px;
+        margin-top: 40px;
+    }
+    .teex{
+        background-color: aliceblue;
+    }
+    h4{
+        width: 80%;
+        margin-top: 50px;
+        text-align: start;
+        margin-left: 50px;
+        font-size: 18px;
+       
+    }
+    .footer{
+        display: flex;
+        background-color: #3a3434;
+        width: 100%;
+        height: 400px;
+        justify-content: space-around;
+    }
+    footer img{
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        margin-left: 70px;
+        margin-top: 40px;
+    
+
+    }
+    .textcha1{
+        color: white;
+        font-size: 19px;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+    .textcha2{
+        color: white;
+        font-size: 19px;
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .rasmk{
+        margin-right: 190px;
+    }
+    .rasmk img{
+        width: 300px;
+        height: 250px;
+        margin-right: 100px;
+    }
+    .rasmk p{
+        color: white;
+        font-size: 22px;
+       text-align: center;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    .kontakt{
+        margin-right: 10%;
+    }
+    .kontakt h2{
+       
+            color: white;
+            font-size: 22px;
+           text-align: center;
+            margin-top: 50px;
+            
+        
+    }
+    .kontakt p{
+        font-size: 27px;
+        color: white;
+    }
+    .button9 button{
+        
+            font-size: 24px;
+            width: 80px;
+            background-color:transparent ;
+            border: 0px;
+            color: white;
+         text-align: center;
+         margin-top: 30px;
+          
+    }
+  .butox button{
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 190px;
+    height: 50px;
+  }
